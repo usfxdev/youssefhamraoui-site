@@ -1,0 +1,408 @@
+[
+ {
+  "url": "https://youssefhamraoui.com",
+  "final": "https://youssefhamraoui.com",
+  "file": "home.txt",
+  "chars": 5979,
+  "title": "Youssef Hamraoui — Business Systems Builder"
+ },
+ {
+  "url": "https://youssefhamraoui.com/work/galaxy-pets",
+  "final": "https://youssefhamraoui.com/work/galaxy-pets",
+  "file": "work__galaxy-pets.txt",
+  "chars": 3179,
+  "title": "Case Study: Galaxy Pets E-commerce Platform | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/work/racha-food",
+  "final": "https://youssefhamraoui.com/work/racha-food",
+  "file": "work__racha-food.txt",
+  "chars": 3365,
+  "title": "Case Study: Racha Food Ordering Platform | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants",
+  "final": "https://youssefhamraoui.com/solutions/restaurants",
+  "file": "solutions__restaurants.txt",
+  "chars": 4879,
+  "title": "Online Ordering Systems for Restaurants in Morocco | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/casablanca",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/casablanca",
+  "file": "solutions__restaurants__casablanca.txt",
+  "chars": 5696,
+  "title": "Online Ordering System for Restaurants in Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/rabat",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/rabat",
+  "file": "solutions__restaurants__rabat.txt",
+  "chars": 5667,
+  "title": "Online Ordering System for Restaurants in Rabat | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/marrakech",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/marrakech",
+  "file": "solutions__restaurants__marrakech.txt",
+  "chars": 5684,
+  "title": "Online Ordering System for Restaurants in Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/fes",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/fes",
+  "file": "solutions__restaurants__fes.txt",
+  "chars": 5618,
+  "title": "Online Ordering System for Restaurants in Fez | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/tanger",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/tanger",
+  "file": "solutions__restaurants__tanger.txt",
+  "chars": 5679,
+  "title": "Online Ordering System for Restaurants in Tangier | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/agadir",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/agadir",
+  "file": "solutions__restaurants__agadir.txt",
+  "chars": 5629,
+  "title": "Online Ordering System for Restaurants in Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/meknes",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/meknes",
+  "file": "solutions__restaurants__meknes.txt",
+  "chars": 5643,
+  "title": "Online Ordering System for Restaurants in Meknes | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/kenitra",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/kenitra",
+  "file": "solutions__restaurants__kenitra.txt",
+  "chars": 5654,
+  "title": "Online Ordering System for Restaurants in Kenitra | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/restaurants/khouribga",
+  "final": "https://youssefhamraoui.com/solutions/restaurants/khouribga",
+  "file": "solutions__restaurants__khouribga.txt",
+  "chars": 5680,
+  "title": "Online Ordering System for Restaurants in Khouribga | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce",
+  "file": "solutions__e-commerce.txt",
+  "chars": 4655,
+  "title": "E-commerce Growth Systems in Morocco | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/casablanca",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/casablanca",
+  "file": "solutions__e-commerce__casablanca.txt",
+  "chars": 5397,
+  "title": "E-commerce Growth System in Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/rabat",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/rabat",
+  "file": "solutions__e-commerce__rabat.txt",
+  "chars": 5368,
+  "title": "E-commerce Growth System in Rabat | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/marrakech",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/marrakech",
+  "file": "solutions__e-commerce__marrakech.txt",
+  "chars": 5385,
+  "title": "E-commerce Growth System in Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/fes",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/fes",
+  "file": "solutions__e-commerce__fes.txt",
+  "chars": 5319,
+  "title": "E-commerce Growth System in Fez | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/tanger",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/tanger",
+  "file": "solutions__e-commerce__tanger.txt",
+  "chars": 5380,
+  "title": "E-commerce Growth System in Tangier | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/agadir",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/agadir",
+  "file": "solutions__e-commerce__agadir.txt",
+  "chars": 5330,
+  "title": "E-commerce Growth System in Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/meknes",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/meknes",
+  "file": "solutions__e-commerce__meknes.txt",
+  "chars": 5344,
+  "title": "E-commerce Growth System in Meknes | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/kenitra",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/kenitra",
+  "file": "solutions__e-commerce__kenitra.txt",
+  "chars": 5355,
+  "title": "E-commerce Growth System in Kenitra | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/e-commerce/khouribga",
+  "final": "https://youssefhamraoui.com/solutions/e-commerce/khouribga",
+  "file": "solutions__e-commerce__khouribga.txt",
+  "chars": 5381,
+  "title": "E-commerce Growth System in Khouribga | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/car-rental",
+  "final": "https://youssefhamraoui.com/solutions/car-rental",
+  "file": "solutions__car-rental.txt",
+  "chars": 4323,
+  "title": "Booking Systems for Car Rental Agencies in Morocco | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/car-rental/casablanca",
+  "final": "https://youssefhamraoui.com/solutions/car-rental/casablanca",
+  "file": "solutions__car-rental__casablanca.txt",
+  "chars": 5076,
+  "title": "Booking System for Car Rental in Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/car-rental/marrakech",
+  "final": "https://youssefhamraoui.com/solutions/car-rental/marrakech",
+  "file": "solutions__car-rental__marrakech.txt",
+  "chars": 5064,
+  "title": "Booking System for Car Rental in Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/solutions/car-rental/agadir",
+  "final": "https://youssefhamraoui.com/solutions/car-rental/agadir",
+  "file": "solutions__car-rental__agadir.txt",
+  "chars": 5009,
+  "title": "Booking System for Car Rental in Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/demo/restaurant-system",
+  "final": "https://youssefhamraoui.com/demo/restaurant-system",
+  "file": "demo__restaurant-system.txt",
+  "chars": 3735,
+  "title": "Inside a Restaurant Ordering System — Plain-Language Demo | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/demo/ecommerce-system",
+  "final": "https://youssefhamraoui.com/demo/ecommerce-system",
+  "file": "demo__ecommerce-system.txt",
+  "chars": 3661,
+  "title": "Inside an E-commerce Growth System — Plain-Language Demo | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr",
+  "final": "https://youssefhamraoui.com/fr",
+  "file": "fr.fr.txt",
+  "chars": 6788,
+  "title": "Youssef Hamraoui — Architecte de systèmes business"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/work/galaxy-pets",
+  "final": "https://youssefhamraoui.com/fr/work/galaxy-pets",
+  "file": "fr__work__galaxy-pets.fr.txt",
+  "chars": 3656,
+  "title": "Étude de cas : plateforme e-commerce Galaxy Pets | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/work/racha-food",
+  "final": "https://youssefhamraoui.com/fr/work/racha-food",
+  "file": "fr__work__racha-food.fr.txt",
+  "chars": 3789,
+  "title": "Étude de cas : plateforme de commande Racha Food | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants",
+  "file": "fr__solutions__restaurants.fr.txt",
+  "chars": 5566,
+  "title": "Système de commande en ligne pour restaurants au Maroc | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/casablanca",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/casablanca",
+  "file": "fr__solutions__restaurants__casablanca.fr.txt",
+  "chars": 6486,
+  "title": "Système de commande en ligne pour restaurants à Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/rabat",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/rabat",
+  "file": "fr__solutions__restaurants__rabat.fr.txt",
+  "chars": 6445,
+  "title": "Système de commande en ligne pour restaurants à Rabat | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/marrakech",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/marrakech",
+  "file": "fr__solutions__restaurants__marrakech.fr.txt",
+  "chars": 6441,
+  "title": "Système de commande en ligne pour restaurants à Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/fes",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/fes",
+  "file": "fr__solutions__restaurants__fes.fr.txt",
+  "chars": 6381,
+  "title": "Système de commande en ligne pour restaurants à Fès | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/tanger",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/tanger",
+  "file": "fr__solutions__restaurants__tanger.fr.txt",
+  "chars": 6472,
+  "title": "Système de commande en ligne pour restaurants à Tanger | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/agadir",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/agadir",
+  "file": "fr__solutions__restaurants__agadir.fr.txt",
+  "chars": 6392,
+  "title": "Système de commande en ligne pour restaurants à Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/meknes",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/meknes",
+  "file": "fr__solutions__restaurants__meknes.fr.txt",
+  "chars": 6403,
+  "title": "Système de commande en ligne pour restaurants à Meknès | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/kenitra",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/kenitra",
+  "file": "fr__solutions__restaurants__kenitra.fr.txt",
+  "chars": 6430,
+  "title": "Système de commande en ligne pour restaurants à Kénitra | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/restaurants/khouribga",
+  "final": "https://youssefhamraoui.com/fr/solutions/restaurants/khouribga",
+  "file": "fr__solutions__restaurants__khouribga.fr.txt",
+  "chars": 6458,
+  "title": "Système de commande en ligne pour restaurants à Khouribga | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce",
+  "file": "fr__solutions__e-commerce.fr.txt",
+  "chars": 5282,
+  "title": "Système de croissance e-commerce au Maroc | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/casablanca",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/casablanca",
+  "file": "fr__solutions__e-commerce__casablanca.fr.txt",
+  "chars": 6070,
+  "title": "Système de croissance e-commerce à Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/rabat",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/rabat",
+  "file": "fr__solutions__e-commerce__rabat.fr.txt",
+  "chars": 6029,
+  "title": "Système de croissance e-commerce à Rabat | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/marrakech",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/marrakech",
+  "file": "fr__solutions__e-commerce__marrakech.fr.txt",
+  "chars": 6025,
+  "title": "Système de croissance e-commerce à Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/fes",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/fes",
+  "file": "fr__solutions__e-commerce__fes.fr.txt",
+  "chars": 5965,
+  "title": "Système de croissance e-commerce à Fès | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/tanger",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/tanger",
+  "file": "fr__solutions__e-commerce__tanger.fr.txt",
+  "chars": 6056,
+  "title": "Système de croissance e-commerce à Tanger | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/agadir",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/agadir",
+  "file": "fr__solutions__e-commerce__agadir.fr.txt",
+  "chars": 5976,
+  "title": "Système de croissance e-commerce à Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/meknes",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/meknes",
+  "file": "fr__solutions__e-commerce__meknes.fr.txt",
+  "chars": 5987,
+  "title": "Système de croissance e-commerce à Meknès | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/kenitra",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/kenitra",
+  "file": "fr__solutions__e-commerce__kenitra.fr.txt",
+  "chars": 6014,
+  "title": "Système de croissance e-commerce à Kénitra | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/e-commerce/khouribga",
+  "final": "https://youssefhamraoui.com/fr/solutions/e-commerce/khouribga",
+  "file": "fr__solutions__e-commerce__khouribga.fr.txt",
+  "chars": 6042,
+  "title": "Système de croissance e-commerce à Khouribga | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/location-voiture",
+  "final": "https://youssefhamraoui.com/fr/solutions/location-voiture",
+  "file": "fr__solutions__location-voiture.fr.txt",
+  "chars": 4985,
+  "title": "Système de réservation pour location de voitures au Maroc | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/location-voiture/casablanca",
+  "final": "https://youssefhamraoui.com/fr/solutions/location-voiture/casablanca",
+  "file": "fr__solutions__location-voiture__casablanca.fr.txt",
+  "chars": 5854,
+  "title": "Système de réservation location de voiture à Casablanca | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/location-voiture/marrakech",
+  "final": "https://youssefhamraoui.com/fr/solutions/location-voiture/marrakech",
+  "file": "fr__solutions__location-voiture__marrakech.fr.txt",
+  "chars": 5809,
+  "title": "Système de réservation location de voiture à Marrakech | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/solutions/location-voiture/agadir",
+  "final": "https://youssefhamraoui.com/fr/solutions/location-voiture/agadir",
+  "file": "fr__solutions__location-voiture__agadir.fr.txt",
+  "chars": 5760,
+  "title": "Système de réservation location de voiture à Agadir | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/demo/restaurant-system",
+  "final": "https://youssefhamraoui.com/fr/demo/restaurant-system",
+  "file": "fr__demo__restaurant-system.fr.txt",
+  "chars": 4154,
+  "title": "Dans les coulisses d’un système de commande restaurant — Démo | Youssef Hamraoui"
+ },
+ {
+  "url": "https://youssefhamraoui.com/fr/demo/ecommerce-system",
+  "final": "https://youssefhamraoui.com/fr/demo/ecommerce-system",
+  "file": "fr__demo__ecommerce-system.fr.txt",
+  "chars": 4197,
+  "title": "Dans les coulisses d’un système de croissance e-commerce — Démo | Youssef Hamraoui"
+ }
+]
