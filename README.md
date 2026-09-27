@@ -1,6 +1,23 @@
 # youssefhamraoui.com
 
-Portfolio and service site for Youssef Hamraoui. Next.js 16 (App Router), English and French.
+Source of my portfolio and service site. It is live at **[youssefhamraoui.com](https://youssefhamraoui.com)**, in English and French.
+
+![Home page of youssefhamraoui.com](docs/home.png)
+
+I'm Youssef Hamraoui, a full-stack web developer based in Morocco. I build websites, online stores, CRMs and automations for small businesses, and I run my web studio [Skorp](https://skorp.dev).
+
+## What's worth looking at
+
+- **Bilingual routing without a library.** English is served at `/`, French at `/fr`. `proxy.ts` picks the language from a saved cookie, then the browser's `Accept-Language`, then English, and rewrites every page into one `app/[lang]` tree. One page template serves both languages.
+- **The build fails if the two languages drift apart.** The English and French copy files share one TypeScript type (`content/types.ts`). A text that exists in one language but not the other is a compile error, not a blank spot in production.
+- **Pages generated from content.** Industry pages × Moroccan cities produce the city landing pages, their metadata and their sitemap entries from `content/`. Adding a city is one entry in `content/cities.ts`.
+- **A rebuild that kept every old URL.** The site replaced an older version without losing links or search rankings. `scripts/check_site.py` tests a build against all 58 URLs of the previous site, follows every internal link, and checks the language redirects, `sitemap.xml` and `robots.txt` before anything goes live.
+- **No runtime dependencies** beyond Next.js and React. Plain CSS, no UI framework, no environment variables.
+- **Shipped as a small Docker image.** A multi-stage `Dockerfile` builds a standalone Next.js server that runs as a non-root user. In production it runs on my own Linux server behind Traefik and Cloudflare. A new version is built next to the running one and switched over only after the checks pass, so it can be rolled back in seconds.
+
+**Stack:** Next.js 16 (App Router) · React 19 · TypeScript · CSS · Docker · Python (checks)
+
+---
 
 ## Pages
 
@@ -54,11 +71,14 @@ cp -r .next/static .next/standalone/.next/
 PORT=3000 node .next/standalone/server.js
 ```
 
-## Deployment
+Or with Docker:
 
-Production runs on the VPS as its own Docker stack in `/opt/sites/youssefhamraoui.com`, built from this source with the `Dockerfile`: a standalone Next.js server on port 3000. Dokploy's Traefik routes the domain and handles HTTPS; the site is not a Dokploy app.
+```bash
+docker build -t youssefhamraoui-site .
+docker run -d -p 3000:3000 youssefhamraoui-site
+```
 
-Release steps:
+## Release steps
 
 1. Build the new version beside the running one.
 2. Test it on a temporary address with the check script below.
@@ -74,3 +94,7 @@ python scripts/check_site.py https://<temporary address>
 ```
 
 It ends with `RESULT: all checks passed` and exits with code 0 when everything is fine.
+
+---
+
+© Youssef Hamraoui. All rights reserved. The code is public so it can be read as part of my portfolio; it is not licensed for reuse. Contact: [youssefhamraouiweb@gmail.com](mailto:youssefhamraouiweb@gmail.com)
