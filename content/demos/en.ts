@@ -2,7 +2,7 @@ import type { DemoCopy, DemoKey } from "../types";
 
 const demos: Record<DemoKey, DemoCopy> = {
   "restaurant-system": {
-    metaTitle: "Inside a Restaurant Ordering System — Plain-Language Demo",
+    metaTitle: "Inside a Restaurant Ordering System — Demo",
     metaDescription:
       "Walk through a restaurant ordering and delivery system step by step — what your customer sees, what happens behind the scenes, and the work it takes off your hands. No jargon.",
     eyebrow: "System demo · no jargon",
@@ -77,7 +77,7 @@ const demos: Record<DemoKey, DemoCopy> = {
     },
   },
   "ecommerce-system": {
-    metaTitle: "Inside an E-commerce Growth System — Plain-Language Demo",
+    metaTitle: "Inside an E-commerce Growth System — Demo",
     metaDescription:
       "Walk through an e-commerce growth system step by step — what your customer experiences, which emails go out automatically, and how the dashboard shows your real numbers. No jargon.",
     eyebrow: "System demo · no jargon",

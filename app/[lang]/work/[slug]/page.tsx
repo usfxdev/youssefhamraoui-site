@@ -65,10 +65,10 @@ export default async function CaseStudyPage({ params }: PageProps<"/[lang]/work/
 
       <div className="shots case-shots">
         <div className="desktop">
-          <Image src={item.desktop} alt={dict.work.items[slug].alt} sizes="(max-width: 1080px) 100vw, 1000px" priority placeholder="blur" />
+          <Image src={item.desktop} alt={dict.work.items[slug].alt} sizes="(max-width: 1200px) 77vw, 930px" priority placeholder="blur" />
         </div>
         <div className="mobile">
-          <Image src={item.mobile} alt="" sizes="(max-width: 760px) 25vw, 220px" placeholder="blur" />
+          <Image src={item.mobile} alt={dict.work.items[slug].mobileAlt} sizes="(max-width: 485px) 96px, (max-width: 1200px) 20vw, 238px" placeholder="blur" />
         </div>
       </div>
 

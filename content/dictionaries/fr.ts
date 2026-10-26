@@ -59,6 +59,7 @@ const fr: Dictionary = {
           "Une cuisine maison à Marrakech qui prenait chaque commande par téléphone et WhatsApp. Je lui ai construit sa propre plateforme de commande : une boutique trilingue avec suivi des commandes en direct sur WhatsApp, et une application native et un back-office complet en cours de développement.",
         outcome: "Les clients commandent désormais en ligne et reçoivent leurs mises à jour WhatsApp, sans aucune commande prise à la main.",
         alt: "Page d'accueil de Racha Food avec le plat du jour et le bouton de commande",
+        mobileAlt: "Racha Food sur téléphone : le tajine de poulet au citron confit du jour et le bouton de commande",
       },
       "galaxy-pets": {
         meta: ["E-commerce", "Animalerie", "Boutique, back-office"],
@@ -66,6 +67,7 @@ const fr: Dictionary = {
           "Une animalerie en ligne construite de zéro : une boutique Next.js bilingue, un back-office sur mesure pour le stock et les commandes, les moyens de paiement marocains intégrés et une alerte WhatsApp dès qu'une commande arrive.",
         outcome: "Un seul endroit pour vendre, un seul pour gérer, et tout appartient au client.",
         alt: "Page d'accueil de la boutique Galaxy Pets avec un golden retriever et des produits mis en avant",
+        mobileAlt: "Galaxy Pets sur téléphone : la page d'accueil de la boutique avec ses boutons Découvrir la boutique et Trouver son cadeau",
       },
     },
   },

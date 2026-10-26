@@ -4,6 +4,11 @@ import { paths } from "@/content/routes";
 import type { Dictionary, Locale } from "@/content/types";
 import { Section } from "./Section";
 
+// Rendered widths of the screenshots in a section column (app/globals.css: gutter 5vw,
+// 11rem label column above 760px, wrap max 1080px, desktop shot 86% of the column, phone shot 22%, min 96px).
+const DESKTOP_SIZES = "(max-width: 760px) 77vw, (max-width: 1200px) calc(77vw - 180px), 750px";
+const MOBILE_SIZES = "(max-width: 485px) 96px, (max-width: 760px) 20vw, (max-width: 1200px) calc(20vw - 46px), 192px";
+
 export function Work({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const t = dict.work;
   return (
@@ -18,13 +23,13 @@ export function Work({ lang, dict }: { lang: Locale; dict: Dictionary }) {
                   <Image
                     src={item.desktop}
                     alt={copy.alt}
-                    sizes="(max-width: 760px) 100vw, 800px"
+                    sizes={DESKTOP_SIZES}
                     priority={i === 0}
                     placeholder="blur"
                   />
                 </div>
                 <div className="mobile">
-                  <Image src={item.mobile} alt="" sizes="(max-width: 760px) 25vw, 200px" placeholder="blur" />
+                  <Image src={item.mobile} alt={copy.mobileAlt} sizes={MOBILE_SIZES} placeholder="blur" />
                 </div>
               </a>
               <div className="work-text">

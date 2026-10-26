@@ -3,7 +3,7 @@
   --bg-2: #e9ebe6;
   --ink: #15181a;
   --ink-2: #4b5157;
-  --muted: #7a8188;
+  --muted: #656a70; /* 4.9:1 on --bg, 4.5:1 on --bg-2 (WCAG AA) */
   --rule: #d3d7d0;
   --rule-strong: #15181a;
   --accent: #4f44d6;

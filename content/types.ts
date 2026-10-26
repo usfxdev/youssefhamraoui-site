@@ -122,7 +122,7 @@ export type Dictionary = {
   };
   work: Labelled & {
     caseStudy: string;
-    items: Record<WorkSlug, { meta: string[]; description: string; outcome: string; alt: string }>;
+    items: Record<WorkSlug, { meta: string[]; description: string; outcome: string; alt: string; mobileAlt: string }>;
   };
   whoIHelp: Labelled & { heading: string };
   products: Labelled & {

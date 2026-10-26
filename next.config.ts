@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
   output: "standalone",
   // No "X-Powered-By: Next.js" header.
   poweredByHeader: false,
+  images: {
+    // Next's defaults plus 192, 320 and 480, so the phone screenshots (96px wide on phones)
+    // and the product images get a file near their rendered size instead of the next big step.
+    imageSizes: [32, 48, 64, 96, 128, 192, 256, 320, 384, 480],
+  },
   experimental: {
     // Lets app/global-not-found.tsx serve 404s, needed because the root layout lives in app/[lang].
     globalNotFound: true,

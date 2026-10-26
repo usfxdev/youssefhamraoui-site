@@ -17,7 +17,7 @@ const restaurants: SolutionCopy = {
     lede: "I build the complete ordering system — your own ordering website, WhatsApp confirmations, kitchen dashboard and customer database — so orders arrive clean, confirmed and commission-free.",
   },
   city: {
-    metaTitle: (c) => `Online Ordering System for Restaurants in ${c}`,
+    metaTitle: (c) => `Online Ordering for Restaurants in ${c}`,
     metaDescription: (c) =>
       `I build ordering and delivery systems for restaurants in ${c}: your own ordering website, WhatsApp confirmations, kitchen dashboard and customer database — commission-free.`,
     h1: (c) => `Your restaurant in ${c} takes orders while you cook.`,

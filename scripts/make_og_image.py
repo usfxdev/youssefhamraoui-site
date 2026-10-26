@@ -24,7 +24,7 @@ W, H = 1200, 630
 S = 2  # draw at twice the size, then scale down for smooth edges
 M = 80  # side margin
 
-BG, INK, INK_2, MUTED = "#f3f4f1", "#15181a", "#4b5157", "#7a8188"
+BG, INK, INK_2, MUTED = "#f3f4f1", "#15181a", "#4b5157", "#656a70"
 ACCENT, ACCENT_SOFT, ICON_DOT = "#4f44d6", "#e6e3fa", "#7d74f0"
 
 COPY = {

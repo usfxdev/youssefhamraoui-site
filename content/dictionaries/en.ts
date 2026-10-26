@@ -58,6 +58,7 @@ const en: Dictionary = {
           "A home-cooked food business in Marrakech that took every order by phone and WhatsApp. I built their own ordering platform: a trilingual storefront with live WhatsApp order tracking, with a native app and a full back office now in development.",
         outcome: "Customers now order online and get WhatsApp updates, with no order taken by hand.",
         alt: "Racha Food home page with the daily special and order button",
+        mobileAlt: "Racha Food on a phone: the daily chicken tagine with preserved lemon and the Order Now button",
       },
       "galaxy-pets": {
         meta: ["E-commerce", "Pet supplies", "Storefront, back office"],
@@ -65,6 +66,7 @@ const en: Dictionary = {
           "A pet-supplies store built from scratch: a bilingual Next.js storefront, a custom admin back office for stock and orders, Moroccan payment methods wired in, and WhatsApp alerts the moment an order lands.",
         outcome: "One place to sell, one place to run it, owned by the client end to end.",
         alt: "Galaxy Pets storefront home page with a golden retriever and featured products",
+        mobileAlt: "Galaxy Pets on a phone: the storefront home page with its shop and gift-finder buttons",
       },
     },
   },
