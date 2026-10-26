@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "@/content/i18n";
 import { alternatesFor, demoIndustry, demoKeys, industryCase, paths } from "@/content/routes";
-import { pageMetadata } from "@/content/seo";
-import type { DemoKey } from "@/content/types";
+import { pageMetadata, type PageSeo } from "@/content/seo";
+import { homeCrumb, innerGraph } from "@/content/schema";
+import type { DemoKey, Locale } from "@/content/types";
 import { Shell } from "@/components/Shell";
+import { JsonLd } from "@/components/JsonLd";
 import { Section } from "@/components/Section";
 import { CtaSection, FlowPanel, PageHero } from "@/components/blocks";
 
@@ -15,16 +17,20 @@ export function generateStaticParams() {
 
 const isDemo = (value: string): value is DemoKey => (demoKeys as string[]).includes(value);
 
-export async function generateMetadata({ params }: PageProps<"/[lang]/demo/[demo]">) {
-  const { lang, demo } = await params;
-  if (!hasLocale(lang) || !isDemo(demo)) return {};
+const seo = (lang: Locale, demo: DemoKey): PageSeo => {
   const t = getDictionary(lang).demos[demo];
-  return pageMetadata({
+  return {
     lang,
     title: t.metaTitle,
     description: t.metaDescription,
     alternates: alternatesFor((l) => paths.demo(l, demo)),
-  });
+  };
+};
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/demo/[demo]">) {
+  const { lang, demo } = await params;
+  if (!hasLocale(lang) || !isDemo(demo)) return {};
+  return pageMetadata(seo(lang, demo));
 }
 
 export default async function DemoPage({ params }: PageProps<"/[lang]/demo/[demo]">) {
@@ -36,9 +42,11 @@ export default async function DemoPage({ params }: PageProps<"/[lang]/demo/[demo
   const industry = demoIndustry[demo];
   const caseSlug = industryCase[industry];
   const contact = paths.section(lang, "contact");
+  const crumbs = [homeCrumb(lang), { name: t.h1, path: paths.demo(lang, demo) }];
 
   return (
     <Shell lang={lang} dict={dict} alternates={alternatesFor((l) => paths.demo(l, demo))}>
+      <JsonLd graph={innerGraph(seo(lang, demo), crumbs)} />
       <PageHero
         eyebrow={t.eyebrow}
         title={t.h1}

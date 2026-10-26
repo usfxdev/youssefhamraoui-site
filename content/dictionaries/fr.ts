@@ -6,6 +6,9 @@ import demos from "../demos/fr";
 // French typography: a non-breaking space ( ) goes before : ? ! and ;
 const fr: Dictionary = {
   meta: {
+    title: "Youssef Hamraoui – Concepteur de systèmes pour entreprises",
+    jobTitle: "Concepteur de systèmes pour entreprises",
+    ogImageAlt: "Youssef Hamraoui, concepteur de systèmes pour entreprises : captation de prospects, réservations, CRM et workflows IA",
     description:
       "Youssef Hamraoui construit les systèmes sur lesquels reposent les entreprises en croissance : captation de prospects, réservations, CRM, workflows IA et le site web qui porte le tout. Basé à Khouribga, au Maroc, clients partout dans le monde, en français et en anglais.",
     ogDescription:

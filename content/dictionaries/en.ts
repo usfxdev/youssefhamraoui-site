@@ -5,6 +5,9 @@ import demos from "../demos/en";
 
 const en: Dictionary = {
   meta: {
+    title: "Youssef Hamraoui – Business Systems Builder in Morocco",
+    jobTitle: "Business systems builder",
+    ogImageAlt: "Youssef Hamraoui, business systems builder: lead capture, bookings, CRM and AI workflows",
     description:
       "Youssef Hamraoui builds the systems growing businesses run on: lead capture, bookings, CRM, AI workflows and the website underneath. Based in Khouribga, Morocco, working worldwide in English and French.",
     ogDescription:

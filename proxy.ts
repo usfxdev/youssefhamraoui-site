@@ -57,7 +57,8 @@ export function proxy(request: NextRequest) {
     return redirect(request, pathname.replace(/^(\/en)?\/solutions\/location-voiture/, "/solutions/car-rental"), 308);
   }
 
-  // "?lang=en" is how the language switch picks English: remember it, then show the clean URL.
+  // "?lang=en" picks English: remember it, then show the clean URL. The language switch now links
+  // the clean URL and sets the same cookie itself (components/LangLink.tsx); this keeps old links working.
   if (request.nextUrl.searchParams.get("lang") === "en") {
     const url = request.nextUrl.clone();
     url.searchParams.delete("lang");

@@ -10,14 +10,14 @@ const restaurants: SolutionCopy = {
   eyebrow: "Pour restaurants & métiers de bouche",
   trustLine: "Construit pour de vrais restaurants au Maroc · Français, arabe & anglais",
   hub: {
-    metaTitle: "Système de commande en ligne pour restaurants au Maroc",
+    metaTitle: "Commande en ligne pour restaurants au Maroc",
     metaDescription:
       "Votre propre site de commande, suivi WhatsApp, tableau de bord cuisine et base clients — des commandes sans commission pour les restaurants partout au Maroc.",
     h1: "Votre restaurant prend les commandes pendant que vous cuisinez.",
     lede: "Je construis le système complet — votre propre site de commande, confirmations WhatsApp, tableau de bord cuisine et base clients — pour que les commandes arrivent propres, confirmées et sans commission.",
   },
   city: {
-    metaTitle: (c) => `Système de commande en ligne pour restaurants à ${c}`,
+    metaTitle: (c) => `Commande en ligne pour restaurants à ${c}`,
     metaDescription: (c) =>
       `Je construis des systèmes de commande et de livraison pour les restaurants à ${c} : site de commande, confirmations WhatsApp, tableau de bord cuisine et base clients — sans commission.`,
     h1: (c) => `Votre restaurant à ${c} prend les commandes pendant que vous cuisinez.`,
@@ -282,14 +282,14 @@ const carRental: SolutionCopy = {
   eyebrow: "Pour agences de location de voitures",
   trustLine: "Construit pour le marché marocain · Français, arabe & anglais",
   hub: {
-    metaTitle: "Système de réservation pour location de voitures au Maroc",
+    metaTitle: "Système de réservation de voitures au Maroc",
     metaDescription:
       "Réservations en ligne, calendrier de flotte en direct, confirmations WhatsApp et base clients — des systèmes de réservation pour les agences de location partout au Maroc.",
     h1: "Votre flotte se réserve pendant que vous roulez.",
     lede: "Je construis le système de réservation complet — réservations en ligne, calendrier de flotte en direct, confirmations WhatsApp et base clients — pour que chaque voiture travaille pour vous 24h/24.",
   },
   city: {
-    metaTitle: (c) => `Système de réservation location de voiture à ${c}`,
+    metaTitle: (c) => `Système de réservation de voitures à ${c}`,
     metaDescription: (c) =>
       `Je construis des systèmes de réservation pour les agences de location de voitures à ${c} : réservations en ligne, calendrier de flotte, confirmations WhatsApp et base clients.`,
     h1: (c) => `Votre flotte à ${c} se réserve pendant que vous roulez.`,

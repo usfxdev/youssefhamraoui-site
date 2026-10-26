@@ -43,6 +43,10 @@ These are the same URLs as the previous site, so existing links and search resul
 | Demos | `content/demos/en.ts`, `fr.ts` |
 | Email, socials, project links, images | `content/site.ts` |
 | Styles | `app/globals.css` |
+| Structured data (JSON-LD) | `content/schema.ts`, built from the same copy as each page |
+| Titles, descriptions, og:image, Twitter card | `content/seo.ts` |
+| Sitemap `<lastmod>` dates | `content/updated.ts`: bump a group's date when you change its pages |
+| Social images `public/og/en.png`, `fr.png` | `python scripts/make_og_image.py` after `npm run build` |
 
 English and French files share one type, so the build fails if something exists in one language but not the other. Adding a city means adding it to `content/cities.ts` and to the industry's list in `content/routes.ts`; its pages and sitemap entries are generated.
 
@@ -50,7 +54,7 @@ English and French files share one type, so the build fails if something exists 
 
 - English is served at the root, French under `/fr`. Internally all pages live in `app/[lang]`, and `proxy.ts` rewrites English URLs to `/en/...`.
 - A visitor whose browser prefers French is sent to the French page. A saved choice (`NEXT_LOCALE` cookie) wins over the browser setting.
-- The EN switch links to `?lang=en`, which saves the choice and redirects to the clean URL.
+- The language switch links straight to the page in the other language (`/` for the English home page). Clicking it saves the choice in the `NEXT_LOCALE` cookie (`components/LangLink.tsx`). Old `?lang=en` links still work: the proxy saves the choice and redirects to the clean URL.
 - The proxy needs a running Next.js server. A static export (`output: "export"`) would drop it.
 
 ## Local development

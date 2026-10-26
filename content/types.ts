@@ -81,7 +81,17 @@ export type DemoCopy = {
 };
 
 export type Dictionary = {
-  meta: { description: string; ogDescription: string; ogLocale: string };
+  meta: {
+    /** Home page <title>: name, role and main keyword, under about 60 characters. */
+    title: string;
+    description: string;
+    ogDescription: string;
+    ogLocale: string;
+    /** Role used as Person.jobTitle in the structured data, in the site's own words. */
+    jobTitle: string;
+    /** Alt text of the default social image in public/og/. */
+    ogImageAlt: string;
+  };
   nav: {
     sections: string;
     language: string;

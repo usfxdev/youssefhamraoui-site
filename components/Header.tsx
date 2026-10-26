@@ -2,14 +2,13 @@ import { site } from "@/content/site";
 import { locales, localeNames, type Locale } from "@/content/i18n";
 import { paths, type Alternates } from "@/content/routes";
 import type { Dictionary } from "@/content/types";
+import { LangLink } from "./LangLink";
 
 type Props = { lang: Locale; dict: Dictionary; alternates: Alternates };
 
-// The English link carries "?lang=en" so the proxy remembers the choice
-// (otherwise a French browser would be sent back to /fr), then redirects to the clean URL.
-const switchHref = (lang: Locale, alternates: Alternates) =>
-  lang === "en" ? `${alternates.en}?lang=en` : alternates.fr;
-
+// Each language link points straight at this page in that language ("/" for the English home page).
+// LangLink saves the choice in the NEXT_LOCALE cookie, so a browser that prefers French
+// is not sent back to /fr after picking English.
 export function Header({ lang, dict, alternates }: Props) {
   const items = [
     { id: "work", label: dict.nav.work },
@@ -29,9 +28,10 @@ export function Header({ lang, dict, alternates }: Props) {
       </nav>
       <div className="lang" role="group" aria-label={dict.nav.language}>
         {locales.map((l) => (
-          <a
+          <LangLink
             key={l}
-            href={switchHref(l, alternates)}
+            locale={l}
+            href={alternates[l]}
             hrefLang={l}
             lang={l}
             title={localeNames[l]}
@@ -39,7 +39,7 @@ export function Header({ lang, dict, alternates }: Props) {
             aria-current={l === lang ? "true" : undefined}
           >
             {l.toUpperCase()}
-          </a>
+          </LangLink>
         ))}
       </div>
       <a className="mail" href={`mailto:${site.email}`}>{site.email}</a>

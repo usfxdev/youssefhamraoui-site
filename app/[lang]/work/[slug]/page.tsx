@@ -2,10 +2,12 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "@/content/i18n";
 import { alternatesFor, paths, workSlugs } from "@/content/routes";
-import { pageMetadata } from "@/content/seo";
+import { pageMetadata, type PageSeo } from "@/content/seo";
+import { caseStudyGraph, homeCrumb } from "@/content/schema";
 import { work } from "@/content/site";
-import type { WorkSlug } from "@/content/types";
+import type { Locale, WorkSlug } from "@/content/types";
 import { Shell } from "@/components/Shell";
+import { JsonLd } from "@/components/JsonLd";
 import { Section } from "@/components/Section";
 import { CtaSection, LeadList, PageHero } from "@/components/blocks";
 
@@ -17,16 +19,20 @@ export function generateStaticParams() {
 
 const isWorkSlug = (value: string): value is WorkSlug => (workSlugs as string[]).includes(value);
 
-export async function generateMetadata({ params }: PageProps<"/[lang]/work/[slug]">) {
-  const { lang, slug } = await params;
-  if (!hasLocale(lang) || !isWorkSlug(slug)) return {};
+const seo = (lang: Locale, slug: WorkSlug): PageSeo => {
   const t = getDictionary(lang).cases[slug];
-  return pageMetadata({
+  return {
     lang,
     title: t.metaTitle,
     description: t.metaDescription,
     alternates: alternatesFor((l) => paths.work(l, slug)),
-  });
+  };
+};
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/work/[slug]">) {
+  const { lang, slug } = await params;
+  if (!hasLocale(lang) || !isWorkSlug(slug)) return {};
+  return pageMetadata(seo(lang, slug));
 }
 
 export default async function CaseStudyPage({ params }: PageProps<"/[lang]/work/[slug]">) {
@@ -36,9 +42,11 @@ export default async function CaseStudyPage({ params }: PageProps<"/[lang]/work/
   const dict = getDictionary(lang);
   const t = dict.cases[slug];
   const item = work.find((w) => w.slug === slug)!;
+  const crumbs = [homeCrumb(lang), { name: item.title, path: paths.work(lang, slug) }];
 
   return (
     <Shell lang={lang} dict={dict} alternates={alternatesFor((l) => paths.work(l, slug))}>
+      <JsonLd graph={caseStudyGraph(seo(lang, slug), crumbs, slug)} />
       <PageHero
         eyebrow={t.eyebrow}
         title={item.title}
